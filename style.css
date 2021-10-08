@@ -1,0 +1,22 @@
+div#mid {
+    background-color: aliceblue;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+body {
+    background-color: bisque;
+}
+
+article.item {
+    color: bisque;
+}
+
+img {
+    border-radius: 8px;
+    width: 150px;
+}
+
+article:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
