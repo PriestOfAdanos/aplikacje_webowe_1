@@ -1,15 +1,20 @@
-div#mid {
-    background-color: aliceblue;
+#mid {
+    background-color: white;
     margin-right: 20%;
     margin-left: 20%;
+    overflow:auto;
 }
 
 body {
-    background-color: bisque;
+background-color: white;
+background-image:  linear-gradient(135deg, bisque 25%, transparent 25%), linear-gradient(225deg,bisque 25%, transparent 25%), linear-gradient(45deg, bisque 25%, transparent 25%), linear-gradient(315deg, bisque 25%, white 25%);
+background-position:  40px 0, 40px 0, 0 0, 0 0;
+background-size: 400px 400px;
+background-repeat: repeat;
 }
 
 article.item {
-    color: bisque;
+    color: black;
 }
 
 img {
@@ -20,3 +25,73 @@ img {
 article:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+.topnav{
+    background-color: beige;
+    color:black;
+    overflow: hidden;
+
+}
+  
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+.block{
+    display: block;
+}
+
+#side_menu{
+width: 15%;
+overflow:hidden;
+float: left;
+}
+
+li{
+    list-style-type: none;
+}
+
+li button{
+    float:left;
+}
+
+#product_list{
+    width: 85%;
+    float:left;
+}
+.img-ctr{
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+
+
+
+
+
+  
